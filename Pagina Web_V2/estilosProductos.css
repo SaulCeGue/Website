@@ -1,0 +1,131 @@
+body{
+    height: 100hv;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.conte{
+    height: 510px;
+    width: 25%;
+    box-shadow: 0 0 7px #111;
+    margin-top: 110px;
+    margin-left: 30px;
+}
+.conte .card{
+    height: 100px;
+    width: 100%;
+    margin-bottom: 170px;
+}
+.card img{
+    margin: auto;
+    display: block;
+}
+
+.conte .testosterona img{
+    margin-top: 50px;
+    height: 220px;
+    width: 220px;
+}
+.conte .testosterona{
+    background-color: aliceblue;
+}
+.conte .cremas{
+    background-color:aliceblue;
+}
+.conte .cremas img{
+    margin-top: 50px;
+    height: 220px;
+    width: 220px;
+}
+.conte .insulina img{
+    margin-top: 50px;
+    height: 200px;
+    width: 250px;
+}
+.informacion{
+    height: 80px;
+    width: 100%;
+}
+.informacion h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+    color: #333;
+    margin-bottom: auto;
+}
+.informacion p{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: .9em;
+    columns: #555;
+}
+.precio{
+    height: 50px;
+    width: 85%;
+    margin: 30px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box-precio{
+    width: 80px;
+}
+.precio1{
+    color: red;
+    font-size: .8em;
+}
+.precio2{
+    font-size: 1.5em;
+}
+.shoping{
+    font-size: 1.5em;
+    color: #555;
+}
+.conte .fusiderm img{
+    margin-top: 50px;
+    height: 220px;
+    width: 300px;
+}
+.conte .bomba img{
+    margin-top: 50px;
+    height: 220px;
+    width: 300px;
+}
+.conte .medidor img{
+    margin-top: 50px;
+    height: 220px;
+    width: 300px;
+}
+.conte .reparacion img{
+    margin-top: 50px;
+    height: 220px;
+    width: 300px;
+}
+.conte .caracol img{
+    margin-top: 50px;
+    height: 220px;
+    width: 300px;
+}
+.conte .cicatriz img{
+    margin-top: 50px;
+    height: 220px;
+    width: 300px;
+}
+.conte .antivejez img{
+    margin-top: 50px;
+    height: 220px;
+    width: 300px;
+}
+.conte .antiacne img{
+    margin-top: 50px;
+    height: 220px;
+    width: 300px;
+}
+.conte .kit img{
+    margin-top: 50px;
+    height: 220px;
+    width: 300px;
+}
+

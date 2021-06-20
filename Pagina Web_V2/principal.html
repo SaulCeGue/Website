@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FarmAmigo</title>
+    <link rel="shortcut icon" href="imagenes/favicon.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <ul class="nav navbar-nav">
+                <li><a class="navbar-band" href="principal.html"><img id="logo" src="imagenes/logo.png"></a></li>
+                <li><a class="navbar-band" href="productos.php">Productos</a></li>
+                <ul class="nav navbar-nav navbar-right ml-auto">
+                  <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#"><img id="usuario" src="imagenes/usuario.png"><span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                          <li><a href="iniciar_sesion.php">Iniciar sesión</a></li>
+                          <li><a href="registrar_usuario.php">Registrarse</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="encuesta_satisfaccion.php">Encuesta de satisfacción</a></li>
+                </ul>
+                <form class="navbar-form navbar-left" action="/action_page.php">
+                    <div class="input-group">
+                    <input id="barra" type="text" class="form-control" placeholder="Buscar un producto">
+                    <div class="input-group-btn">
+                        <button id="busqueda" class="btn btn-default" type="submit">
+                        <i  class="glyphicon glyphicon-search"></i>
+                        </button>
+                    </div>
+                    </div>
+                </form>
+                
+            </ul>
+          </div>
+  </nav>
+    <br>
+    <br>
+    <br>
+    <!--Caroussel-->
+    <div class="container">
+      <div id="myCarousel" class="carousel slide mt-100" data-ride="carousel">
+      <!-- Indicadores -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+
+      <!-- Imagenes -->
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="imagenes/ofertas.jpg" alt="Ofertas">
+        </div>
+
+        <div class="item">
+          <img src="imagenes/especialOfer.jpg" alt="MasOfertas">
+        </div>
+
+        <div class="item">
+          <img src="imagenes/otrasOfertas.jpg" alt="Otras">
+        </div>
+      </div>
+
+      <!-- Controles de izquierda y derecha -->
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!--Firebase Script-->
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-app.js"></script>
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyAsmTF4wKkjAijgmU-48FwC-o_-jtjFaDk",
+        authDomain: "usuarios-3f45c.firebaseapp.com",
+        projectId: "usuarios-3f45c",
+        storageBucket: "usuarios-3f45c.appspot.com",
+        messagingSenderId: "133485383159",
+        appId: "1:133485383159:web:9246a6d3e0295fa0aeb2f2"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+
+    <script src="conection.js"></script>
+</body>
+</html>
